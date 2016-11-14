@@ -1,0 +1,156 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font: normal 100%/1.5 sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+@media only screen and (min-width: 20em) {
+
+  body img:last-child {
+    display: none;
+}
+
+body img:nth-child(2) {
+  display: none;
+}
+
+body img:first-child {
+  display: inline-block;
+  width: 100%;
+}
+
+body img:nth-child(3) {
+  display: inline-block;
+  width: 100%;
+}
+
+}
+
+@media only screen and (min-width: 25em) {
+
+  body img:last-child {
+    visibility: visible;
+    display: inline-block;
+    width: 50%;
+  }
+
+  body img:nth-child(2) {
+    visibility: visible;
+    display: inline-block;
+    width: 50%;
+  }
+
+  body img:first-child {
+    display: inline-block;
+    width: 50%;
+    float: left;
+    width: 50%;
+  }
+
+  body img:nth-child(3) {
+    display: inline-block;
+    width: 50%;
+    float: left;
+    width: 50%;
+  }
+
+  body img:last-child {
+    display: inline-block;
+    width: 50%;
+    float: left;
+    width: 50%;
+  }
+
+  body img:nth-child(2) {
+    display: inline-block;
+    width: 50%;
+    float: left;
+    width: 50%;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  body img:first-child {
+    display: none;
+}
+
+
+  body img:nth-child(3) {
+    display: inline-block;
+    width: 25%;
+    float: left;
+    width: 33.33%;
+
+  }
+
+  body img:last-child {
+    display: inline-block;
+    width: 25%;
+    float: right;
+    clear: right;
+    width: 33.33%;
+  }
+
+body img:nth-child(2) {
+  display: inline-block;
+  width: 25%;
+  float: left;
+  clear: left;
+  width: 33.33%;
+  overflow: hidden;
+}
+
+}
+
+@media only screen and (min-width: 60em) {
+
+
+body img:first-child {
+  display: inline-block;
+  width: 25%;
+  float: left;
+  width: 25%;
+  margin-right: 0;
+}
+
+  body img:nth-child(3) {
+    display: inline-block;
+    float: left;
+    width: 25%;
+
+  }
+
+  body img:last-child {
+    display: inline-block;
+    width: 25%;
+    float: left;
+    width: 25%;
+  }
+
+  body img:nth-child(2) {
+  display: inline-block;
+  width: 25%;
+  float: left;
+  width: 25%;
+}
+
+}
